@@ -1,0 +1,21 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+mainenv/
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
