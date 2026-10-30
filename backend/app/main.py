@@ -29,7 +29,6 @@ from app.tools.approval_tools import (
     approve_booking,
 )
 
-
 app = FastAPI(
     title="AI Receptionist Agent",
     description=(
@@ -39,17 +38,18 @@ app = FastAPI(
     version="0.1.0",
 )
 app.include_router(auth_router)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://ai-receptionist-agent-1axs82c9g-gouthams-projects-9b50d089.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 class ChatMessage(BaseModel):
     role: str
