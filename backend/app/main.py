@@ -44,9 +44,9 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-        "https://ai-receptionist-agent-omega.vercel.app/"
-        "https://ai-receptionist-agent-1axs82c9g-gouthams-projects-9b50d089.vercel.app",
         "https://ai-receptionist-agent-6qw9ik16u-gouthams-projects-9b50d089.vercel.app",
+        "https://ai-receptionist-agent-omega.vercel.app",
+        "https://ai-receptionist-agent-ad7v8zw5h-gouthams-projects-9b50d089.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
