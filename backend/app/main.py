@@ -46,6 +46,7 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "https://ai-receptionist-agent-1axs82c9g-gouthams-projects-9b50d089.vercel.app",
         "https://ai-receptionist-agent-6qw9ik16u-gouthams-projects-9b50d089.vercel.app",
+        "https://ai-receptionist-agent-omega.vercel.app/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
